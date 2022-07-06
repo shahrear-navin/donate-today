@@ -6,6 +6,7 @@ body{
     font-family: 'Pop pins', sans-serif;
     /* margin: 0; */
     /* padding: 0; */
+    /* text-align: center; */
     
 }
 
@@ -49,6 +50,73 @@ body{
     font-weight: bold;
     text-decoration: none;
     background: #FF5959;
-    padding: 12px 16px;  
+    padding: 12px 16px;
+    display: inline-block;  
 
+}
+
+
+/* donate section */
+
+.donate-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    
+    
+}
+
+.donate-text{
+    width: 50%;
+    text-align: center;
+}
+
+.donate-today{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    float: left;
+    width: 140px;
+    height: 100px;
+    background-color: #FAFAFA;
+}
+
+.box p {
+    color: #707070;
+    font-weight: bold;
+    font-size: 30px;
+    
+    
+}
+
+#select-box{
+    background-color: #ffeeee;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+}
+
+.donate-amount{
+    color: #B3B3B3;
+    text-align: center;
+    
+}
+
+.donate-amount p{
+    margin-top: 20px;
+}
+
+.donate-amount hr{
+    width: 700px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
